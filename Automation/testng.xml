@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="com.actitime.testscript.ProjectModule"/>
+      <class name="com.actitime.testscript.DemoAssertionAll"/>
+      <class name="com.actitime.testscript.DemoScreenshot"/>
+      <class name="com.actitime.testscript.DemoTestNG"/>
+      <class name="com.actitime.testscript.CustomerModule2"/>
+      <class name="com.actitime.testscript.CustomerModule"/>
+      <class name="com.actitime.testscript.TaskModule"/>
+      <class name="com.actitime.testscript.CustomerModuleAmmot"/>
+      <class name="com.actitime.testscript.DemoAssertion"/>
+      <class name="com.actitime.testscript.ProjectModuleBatch"/>
+      <class name="com.actitime.testscript.TaskModule2"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
